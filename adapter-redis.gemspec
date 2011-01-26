@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency 'adapter', '~> 0.5.1'
-  s.add_dependency 'redis'
+  s.add_dependency 'redis', '~> 2.1.1'
 end

@@ -2,8 +2,8 @@ PATH
   remote: .
   specs:
     adapter-redis (0.5)
-      adapter (~> 0.5)
-      redis
+      adapter (~> 0.5.1)
+      redis (~> 2.1.1)
 
 GEM
   remote: http://rubygems.org/
@@ -31,10 +31,10 @@ PLATFORMS
 DEPENDENCIES
   SystemTimer (~> 1.2.1)
   activesupport (~> 3)
-  adapter (~> 0.5)
+  adapter (~> 0.5.1)
   adapter-redis!
   i18n (= 0.5.0)
   log_buddy (~> 0.5.0)
-  redis
+  redis (~> 2.1.1)
   rspec (~> 2.3)
   timecop (~> 0.3.5)
