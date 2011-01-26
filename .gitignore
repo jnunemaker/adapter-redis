@@ -1,3 +1,4 @@
+log
 pkg/*
 *.gem
 .bundle
